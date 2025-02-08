@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./pexels-pixabay-220301.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Ensure container takes up full available width up to max-width */
+}
+
+input {
+    width: 75%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+#tableOutput {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+th {
+   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+td {
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    color: black;
+    font-size: 18px;
+}
+
+.blog-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.reload-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reload-btn:hover {
+    background-color: #c82333;
+}
